@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dragoncorpse",
+  "version": "${version}",
+  "name": "Dragon Corpse",
+  "description": "Spawn a dead Ender Dragon corpse lying on the ground with /dragoncorpse.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dragoncorpse.DragonCorpseMod"],
+    "client": ["com.dragoncorpse.DragonCorpseClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
